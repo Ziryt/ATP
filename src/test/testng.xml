@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="C:/Users/Lemuel/IdeaProjects/ATP1">
+        <classes>
+            <class name="tests.Tests">
+                <methods>
+                    <include name="getAllMinions"/>
+                    <include name="getAllMinionsAsStr"/>
+<!--                    <include name="getMinionByID"/>-->
+                    <include name="getMinionAsStrByID"/>
+<!--                    <include name="addMinion"/>-->
+
+                    <include name="deleteMinionByID"/>
+<!--                    <include name="updateMinion"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
