@@ -8,10 +8,9 @@
                     <include name="getAllMinions"/>
                     <include name="getAllMinionsAsStr"/>
 <!--                    <include name="getMinionByID"/>-->
-                    <include name="getMinionAsStrByID"/>
+<!--                    <include name="getMinionAsStrByID"/>-->
 <!--                    <include name="addMinion"/>-->
-
-                    <include name="deleteMinionByID"/>
+<!--                    <include name="deleteMinionByID"/>-->
 <!--                    <include name="updateMinion"/>-->
                 </methods>
             </class>

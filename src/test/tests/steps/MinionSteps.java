@@ -14,7 +14,7 @@ import static tests.specs.RestSpecification.getRequestSpec;
 public class MinionSteps {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
-    private static final String url = "http://localhost:3000";
+    private static final String url = "http://jsonserver:3000";
     private static final String path = "/users";
 
 
